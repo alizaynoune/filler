@@ -17,6 +17,12 @@
 # include "../next_line/get_next_line.h"
 # include <stdio.h>
 
+# define PLAT	("Plateau")
+# define DEF	("\e[0m")
+# define RED	("\e[1;31m")
+# define GREEN	("\e[32;1m")
+# define YELLOW	("\e[1;33m")
+
 typedef struct	s_pos
 {
 	int			x;
@@ -32,7 +38,7 @@ typedef struct	s_data
 	t_pos		max_cp;
 	t_pos		pos_r;
 	char		**map;
-	int			**mapn;
+	int		**mapn;
 	char		my_ch;
 	char		fgt_ch;
 	t_pos		*p_pos;

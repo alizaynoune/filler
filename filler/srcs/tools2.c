@@ -14,11 +14,9 @@
 
 t_data		ft_move(t_data data)
 {
-	int		cnt;
 	int		frst;
 	int		saf;
 
-	cnt = 0;
 	frst = 0;
 	saf = 0;
 	while (data.max_p.x < data.map_cor.x)
