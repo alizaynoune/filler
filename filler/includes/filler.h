@@ -22,6 +22,7 @@
 # define RED	("\e[1;31m")
 # define GREEN	("\e[32;1m")
 # define YELLOW	("\e[1;33m")
+# define NOP	("-nop")
 
 typedef struct	s_pos
 {
